@@ -1,6 +1,6 @@
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/FFT.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/IFFT.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/Convolution.jl")
+include("FFT.jl")
+include("IFFT.jl")
+include("Convolution.jl")
 
 # Parameters:
 #	N::UInt64

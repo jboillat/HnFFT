@@ -1,7 +1,7 @@
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/FFT.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/IFFT.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/Convolution.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/FastExp.jl")
+include("FFT.jl")
+include("IFFT.jl")
+include("Convolution.jl")
+include("FastExp.jl")
 # Demonstrates DH on Hn
 # Parameters:
 #	N::UInt64

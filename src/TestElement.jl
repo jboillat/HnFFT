@@ -1,4 +1,4 @@
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/Element.jl")
+include("Element.jl")
 println("> Element test")
 N = Int(10)
 V1 = [1,0,1,1,0,0,1,0,0,1]

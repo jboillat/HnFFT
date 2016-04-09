@@ -1,5 +1,5 @@
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/Element.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/Function.jl")
+include("Element.jl")
+include("Function.jl")
 #Demonstrates how to put the values of a function on Hn in the order used to compute the FFT
 function testFunction(M::BigInt)
   println("> Test Function")

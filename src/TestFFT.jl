@@ -1,5 +1,5 @@
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/FFT.jl")
-include("/home/jeb/Teaching/Research/Thermodynamics/eclipse-julia/HnFFTFp/src/IFFT.jl")
+include("FFT.jl")
+include("IFFT.jl")
 println("> FFT-IFFT test ")
 N = UInt64(10)
 P = UInt(2)^N
